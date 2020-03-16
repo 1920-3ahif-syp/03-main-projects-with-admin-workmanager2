@@ -115,12 +115,11 @@ image::http://www.plantuml.com/plantuml/png/XP6_JiD03CRtUmehKpj4tJEr0njXoP01CLYr
 Jeder Nutzer soll nur auf ihm gerichtete Daten sehen können. Die Änderungen eines Arbeitsplaners, soll sofort den betroffenen Mitarbeiter benachrichtigen.
 
 
-----
-@startgantt
 
+@startgantt
+printscale weekly
 [Prototype design] lasts 1 week
 [Test Prototype] lasts 1 week
 [Implement JDBC] lasts 3 week
 [Implement JDBC] starts at [Prototype design]'s end
 @endgantt
-----
