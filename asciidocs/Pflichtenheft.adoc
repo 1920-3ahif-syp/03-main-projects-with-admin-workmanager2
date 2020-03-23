@@ -109,7 +109,7 @@ image::http://www.plantuml.com/plantuml/png/XP6_JiD03CRtUmehKpj4tJEr0njXoP01CLYr
 * GUI soll einfach zu bedienen sein.
 * Daten vertraulich behandelt (Nur mit Login daten zugreifbar).
 * Reliability, Es soll jederzeit erreichbar sein.
-* Efficiency, es soll .
+* Efficiency
 
 == Mengengerüst
 Jeder Nutzer soll nur auf ihm gerichtete Daten sehen können. Die Änderungen eines Arbeitsplaners, soll sofort den betroffenen Mitarbeiter benachrichtigen.
