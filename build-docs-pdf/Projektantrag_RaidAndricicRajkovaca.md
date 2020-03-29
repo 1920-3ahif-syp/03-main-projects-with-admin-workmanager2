@@ -1,11 +1,11 @@
-# Projektantrag
+# Projektantrag 
 ## Projektbezeichnung
 Work Manager
 
-## Projektauftraggeber
+## Projektauftraggeber 
 Prof. Mag. Dr. Thomas Stütz
 
-## Projekthintergrund
+## Projekthintergrund 
 Damit für den Arbeitgeber und Arbeitnehmer die flexible Zeitgestaltung übersichtlicher geplant werden kann, möchten wir eine App/Website für beide
 erstellen, die einen Wochenplan oder einen Monatsplan besitzt.
 In diesem Plan wird dargestellt wann der Mitarbeiter arbeiten soll.
@@ -29,35 +29,31 @@ Der Arbeitgeber kann seinen Plan flexibel aufstellen und bei jeder Änderung sol
 - Arbeitgeber
 - Arbeitnehmer
 
-### Endergebnis
+### Endergebnis 
 Das Ergebnis soll eine App/Website sein, die den Arbeitgeber die Arbeitszeiten aller Arbeitnehmer bearbeiten lässt.
-Nach jeden Monat wird für jeden Mitarbeiter eine Bilanz seiner/ihrer Arbeitstunden erstellt, so kann Arbeitnehmer und Arbeitgeber sehen, wann, wie lange und wo wurde gearbeitet.
+Nach jeden Monat wird für jeden Mitarbeiter eine Bilanz seiner/ihrer Arbeitstunden erstellt, so kann Arbeitnehmer und Arbeitgeber sehen, wann, wie lange und wo wurde gearbeitet. 
 
 ## Projektstart
 
-**14.10.2019**
+**14.10.19**
 
 ## Projektende
 
-**10.07.2020**
+**10.07.2019**
 
 ## Projektressourcen
 
 - Datenbank-Server
-- Java-Applikation
+- Webserver
 
 ## Projektrisiken
 
-Risiken:
+Risiken: 
 
 - Die nicht Vollendigung des Projekts
 - Kompatibilitätsrisiken
 - Zeitmangel
 - **Umsetzung des Projekts**
-
-
-## GH-Pages
-[https://github.com/1920-3ahif-syp/03-main-projects-with-admin-workmanager2.git/index.html](https://github.com/1920-3ahif-syp/03-main-projects-with-admin-workmanager2.git/index.html)
 
 
 ## Projektorganisation

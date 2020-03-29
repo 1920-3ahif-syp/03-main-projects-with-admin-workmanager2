@@ -35,7 +35,7 @@ docker run --rm \
 rm -rf -v $BUILD_DIR/revealjs
 #rm -rf -v $BUILD_DIR/.asciidoctor
 rm -rf -v $BUILD_DIR/*.adoc
-rm -v $BUILD_DIR/docinfo.html
+#rm -v $BUILD_DIR/docinfo.html
 
 # https://github.com/asciidoctor/docker-asciidoctor
 

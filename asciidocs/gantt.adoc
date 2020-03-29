@@ -1,0 +1,39 @@
+= Work Manager
+// Metadata
+:author: Andricic Daniel, Yimne Raid, Robert Rajkovaca
+:date: 2020-03-28
+:revision: 1.0
+// Settings
+:source-highlighter: coderay
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+// :toc:
+
+Version: {revision}
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+== Work Manager
+
+[plantuml,gantt,png]
+....
+@startgantt
+Project starts the 16th of march 2020
+[Prototype design] as [Design] lasts 3 weeks
+[Design] is colored in Lavender/LightBlue
+
+[Test Prototype] as [Test] lasts 3 days
+[Test] is colored in GreenYellow/Green
+[Design] -> [Test]
+[08.04.2020] happens at [Test]'s end 
+
+[User Management] as [User] lasts 19 days
+[Test] -> [User]
+[27.04.2020] happens at [User]'s end
+
+@endgantt
+....
