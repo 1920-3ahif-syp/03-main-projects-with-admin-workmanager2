@@ -44,7 +44,11 @@ Project starts the 16th of march 2020
 
 == Links
 <<<<<<< HEAD
+<<<<<<< HEAD
 link:index.html[Zur Startseite zurückkehren],
+=======
+link: index.html[Zur Startseite zurückkehren],
+>>>>>>> 9210a7fd205a3b4b5974d3acbf2c0aceb45be77f
 =======
 link: index.html[Zur Startseite zurückkehren],
 >>>>>>> 9210a7fd205a3b4b5974d3acbf2c0aceb45be77f
