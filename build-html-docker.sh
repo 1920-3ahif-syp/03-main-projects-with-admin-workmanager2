@@ -5,12 +5,12 @@ rm -rf -v $BUILD_DIR # else plantuml diagrams won't be rebuilt
 # do not copy revealjs
 mkdir -p docs
 cp -r -p -v asciidocs/images $BUILD_DIR/images/
-#cp -r -p -v asciidocs/themes $BUILD_DIR
-#cp -r -p -v asciidocs/docinfo.html $BUILD_DIR
+cp -r -p -v asciidocs/themes $BUILD_DIR
+cp -r -p -v asciidocs/docinfo.html $BUILD_DIR
 #cp -r -p -v asciidocs/.nojekyll $BUILD_DIR
-#cp -r -p -v asciidocs/index.adoc $BUILD_DIR
+cp -r -p -v asciidocs/index.adoc $BUILD_DIR
 cp -r -p -v asciidocs/*.adoc $BUILD_DIR
-#cp -r -p -v src $BUILD_DIR
+cp -r -p -v src $BUILD_DIR
 
 docker run --rm \
            -v ${PWD}/$BUILD_DIR:/documents \
