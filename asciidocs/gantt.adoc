@@ -31,9 +31,16 @@ Project starts the 16th of march 2020
 [Design] -> [Test]
 [08.04.2020] happens at [Test]'s end 
 
-[User Management] as [User] lasts 19 days
-[Test] -> [User]
-[27.04.2020] happens at [User]'s end
+[Implement JDBC] as [DB] lasts 2 weeks
+[Test] -> [DB]
+[22.04.2020] happens at [DB]'s end
 
+[User Management] as [User] lasts 19 days
+[DB] -> [User]
+[27.04.2020] happens at [User]'s end
 @endgantt
 ....
+
+
+== Links
+link: index.html[]
