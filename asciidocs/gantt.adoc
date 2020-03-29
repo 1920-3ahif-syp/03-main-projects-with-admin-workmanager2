@@ -43,4 +43,4 @@ Project starts the 16th of march 2020
 
 
 == Links
-link: index.html[]
+link:index.html[Zur Startseite zurückkehren],
