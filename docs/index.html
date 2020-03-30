@@ -462,8 +462,7 @@ pre.rouge .hll * {
 <li><a href="#_zielsetzung">4. Zielsetzung</a>
 <ul class="sectlevel2">
 <li><a href="#_domain_object_model">4.1. Domain Object Model</a></li>
-<li><a href="#_funktionale_anforderungen">4.2. Funktionale Anforderungen</a></li>
-<li><a href="#_nichtfunktionale_anforderungen">4.3. Nichtfunktionale Anforderungen</a></li>
+<li><a href="#_nichtfunktionale_anforderungen">4.2. Nichtfunktionale Anforderungen</a></li>
 </ul>
 </li>
 <li><a href="#_mengengerüst">5. Mengengerüst</a></li>
@@ -519,20 +518,36 @@ Der Mitarbeiter kann somit leichter seinen Arbeitsplan anfordern.</p>
 <h3 id="_domain_object_model"><a class="anchor" href="#_domain_object_model"></a>4.1. Domain Object Model</h3>
 <div class="imageblock">
 <div class="content">
-<img src="images/klassendia.png" alt="klassendia" width="813" height="223">
+<img src="images/klassendiagramm.png" alt="klassendiagramm" width="813" height="223">
 </div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="http://www.plantuml.com/plantuml/png/fP2zQiD03CVtUmgHpda13oL3Xmuj13falkHKM-G-WgIZb3RlNXqz6vkEzM3mZx_-7pw8UjQQeeluhg05cCP98H3ZHQbaTubU15vzzYCoV3c0VHNax1CEyAPCUMpiPggFmc73a1E9c8iCG5aRCytr5dqZBoJgxZtWP7psJpsiX_uhSlO_8al9pT-UXwrL8nOqTxIlCx5EmQkn9tilBhjM4uxMV_TRDNYAdmsQqNEfRAcXr7F4UIloqBUjbWthQLCxitednEjoVGTmplMVijz_F_O1hXzks29Rz-lAFzWTC8UQuWy0" alt="Example">
+<img src="images/klassendiagramm.png" alt="Klassendiagramm" width="300" height="200">
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_funktionale_anforderungen"><a class="anchor" href="#_funktionale_anforderungen"></a>4.2. Funktionale Anforderungen</h3>
-<div class="imageblock">
+<div class="listingblock">
 <div class="content">
-<img src="images/usecase.png" alt="usecase" width="838" height="279">
+<pre>@startuml
+left to right direction
+skinparam packageStyle rect
+:Worker: as W
+:Manager (Admin): as M
+rectangle "Server" {
+W -- ("Enter Login details")
+W -- ("Show the work plan")
+W -- ("Notify worker")
+M -- ("Add/delete/edit work plan")
+
+("Enter Login details") -[hidden]- ("Show the work plan")
+("Add/delete/edit work plan") -[hidden]- ("Notify worker")
+("Enter Login details") -[hidden]- ("Add/delete/edit work plan")
+}
+
+M -- ("Enter Login details")
+M -- ("Show the work plan")
+M -- ("Notify worker")
+@enduml</pre>
 </div>
 </div>
 <div class="imageblock">
@@ -542,7 +557,7 @@ Der Mitarbeiter kann somit leichter seinen Arbeitsplan anfordern.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_nichtfunktionale_anforderungen"><a class="anchor" href="#_nichtfunktionale_anforderungen"></a>4.3. Nichtfunktionale Anforderungen</h3>
+<h3 id="_nichtfunktionale_anforderungen"><a class="anchor" href="#_nichtfunktionale_anforderungen"></a>4.2. Nichtfunktionale Anforderungen</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -576,7 +591,7 @@ Der Mitarbeiter kann somit leichter seinen Arbeitsplan anfordern.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-03-30 10:25:01 UTC
+Last updated 2020-03-30 10:37:40 UTC
 </div>
 </div>
 </body>
