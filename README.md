@@ -57,7 +57,7 @@ Risiken:
 
 
 ## GH-Pages
-[https://github.com/1920-3ahif-syp/03-main-projects-with-admin-workmanager2.git/index.html](https://github.com/1920-3ahif-syp/03-main-projects-with-admin-workmanager2.git/index.html)
+[https://1920-3ahif-syp.github.io/03-main-projects-with-admin-workmanager2/index.html](https://1920-3ahif-syp.github.io/03-main-projects-with-admin-workmanager2/index.html)
 
 
 ## Projektorganisation
