@@ -39,7 +39,7 @@ Nach jeden Monat wird für jeden Mitarbeiter eine Bilanz seiner/ihrer Arbeitstun
 
 ## Projektende
 
-**10.07.2020**
+**22.06.2020**
 
 ## Projektressourcen
 

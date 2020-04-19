@@ -1,6 +1,7 @@
-package at.htl.workmanager.Observer;
+package main.java.at.htl.workmanager.Observer;
 
 import at.htl.workmanager.WorkPlan.WorkDay;
+import at.htl.workmanager.Observer.Observer;
 
 public class ObserverController implements Observer {
     @Override

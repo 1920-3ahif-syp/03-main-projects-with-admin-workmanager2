@@ -1,4 +1,4 @@
-package at.htl.workmanager.Observer;
+package main.java.at.htl.workmanager.Observer;
 
 import at.htl.workmanager.WorkPlan.WorkDay;
 
