@@ -1,7 +1,7 @@
 package main.java.at.htl.workmanager.Users;
 
-import at.htl.workmanager.WorkPlan.WorkDay;
 import main.java.at.htl.workmanager.Observer.Observer;
+import main.java.at.htl.workmanager.WorkPlan.WorkDay;
 
 public class Person implements Observer {
 
@@ -34,7 +34,7 @@ public class Person implements Observer {
         return this.firstName + " " + this.lastName;
     }
 
-    public void changePassword(String newPassword) {
+    private void changePassword(String newPassword) {
         //In-Progress!
     }
 

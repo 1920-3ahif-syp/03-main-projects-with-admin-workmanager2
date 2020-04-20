@@ -1,7 +1,7 @@
 package main.java.at.htl.workmanager.Observer;
 
-import at.htl.workmanager.WorkPlan.WorkDay;
+import main.java.at.htl.workmanager.WorkPlan.WorkDay;
 
 public interface Observer {
-    void update(WorkDay day);
+    public void update(WorkDay day);
 }
