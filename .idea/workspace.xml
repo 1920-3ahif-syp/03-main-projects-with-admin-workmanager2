@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4994e2f5-57cf-4d79-9044-1c3d3f73fd2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFX11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SYP-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SYP-Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +58,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="C:/opt/JavaFX11.0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -86,7 +88,7 @@
       <workItem from="1584960836901" duration="1418000" />
       <workItem from="1584964151574" duration="1850000" />
       <workItem from="1585566427576" duration="1320000" />
-      <workItem from="1587317408554" duration="9147000" />
+      <workItem from="1587317408554" duration="9931000" />
     </task>
     <servers />
   </component>
@@ -116,14 +118,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="528" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1584961537381" />
-    <state x="824" y="224" key="FileChooserDialogImpl" timestamp="1587383436536">
+    <state x="824" y="224" key="FileChooserDialogImpl" timestamp="1587388315938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="824" y="224" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587383436536" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1587386824485">
+    <state x="824" y="224" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587388315938" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1587388344533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587386824485" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587388344533" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585566967909" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587317422653">
       <screen x="0" y="0" width="1920" height="1040" />
