@@ -1,7 +1,7 @@
 package main.java.at.htl.workmanager.Users;
 
-import at.htl.workmanager.Observer.Observer;
 import at.htl.workmanager.WorkPlan.WorkDay;
+import main.java.at.htl.workmanager.Observer.Observer;
 
 public class Person implements Observer {
 

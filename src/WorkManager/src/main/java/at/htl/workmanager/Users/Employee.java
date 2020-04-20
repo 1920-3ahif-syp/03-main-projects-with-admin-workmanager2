@@ -1,6 +1,6 @@
 package main.java.at.htl.workmanager.Users;
 
-//import main.java.at.htl.workmanager.WorkPlan.*;
+import at.htl.workmanager.WorkPlan.WorkDay;
 import main.java.at.htl.workmanager.Observer.Observer;
 
 public class Employee implements Observer {
@@ -59,7 +59,7 @@ public class Employee implements Observer {
     }
 
     @Override
-    public void update(at.htl.workmanager.WorkPlan.WorkDay day) {
+    public void update(WorkDay day) {
         if(day.getEmployee().getFullName().equals(getFullName())) {
             this.worked = day.getHours();
         }

@@ -1,6 +1,6 @@
-package at.htl.workmanager.WorkPlan;
+package main.java.at.htl.workmanager.WorkPlan;
 
-import at.htl.workmanager.Users.Person;
+import main.java.at.htl.workmanager.Users.Person;
 
 public class WorkDay {
 
