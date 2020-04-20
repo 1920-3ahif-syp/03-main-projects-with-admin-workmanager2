@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Apache Derby (Remote) -" uuid="ee52e246-6c11-47fa-9a19-7e88ac5d299c">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>host</remarks>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/src/WorkManager/db</jdbc-url>
+      <driver-properties>
+        <property name="admin" value="admin" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
