@@ -23,32 +23,25 @@ Version: {revision}
 ....
 @startgantt
 Project starts the 16th of march 2020
-[Prototype design] as [Design] lasts 3 weeks
+[Prototype design] as [Design] lasts 6 weeks
 [Design] is colored in Lavender/LightBlue
 
-[Test Prototype] as [Test] lasts 3 days
+[Test Prototype] as [Test] lasts 5 days
 [Test] is colored in GreenYellow/Green
 [Design] -> [Test]
-[08.04.2020] happens at [Test]'s end 
+[01.05.2020] happens at [Test]'s end
 
 [Implement JDBC] as [DB] lasts 2 weeks
 [Test] -> [DB]
-[22.04.2020] happens at [DB]'s end
+[15.05.2020] happens at [DB]'s end
 
 [User Management] as [User] lasts 19 days
 [DB] -> [User]
-[27.04.2020] happens at [User]'s end
+[22.06.2020] happens at [User]'s end
 @endgantt
 ....
 
 
 == Links
-<<<<<<< HEAD
-<<<<<<< HEAD
 link:index.html[Zur Startseite zurückkehren],
-=======
-link: index.html[Zur Startseite zurückkehren],
->>>>>>> 9210a7fd205a3b4b5974d3acbf2c0aceb45be77f
-=======
-link: index.html[Zur Startseite zurückkehren],
->>>>>>> 9210a7fd205a3b4b5974d3acbf2c0aceb45be77f
+link:youtrack-diagramm.html[Youtrack-Diagramm]

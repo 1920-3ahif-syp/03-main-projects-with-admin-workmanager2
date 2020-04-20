@@ -9,8 +9,8 @@
 //:sectnums:    // Nummerierung der Überschriften / section numbering
 // Refs:
 :imagesdir: images
-:sourcedir-code: src/main/java/at/htl/jdbcprimer
-:sourcedir-test: src/test/java/at/htl/jdbcprimer
+:sourcedir-code: src/main/java/at/htl/workmanager
+//:sourcedir-test: src/test/java/at/htl/workmanager
 :toc:
 
 Version: {revision}
@@ -26,10 +26,10 @@ Damit die Mitarbeiter sich schneller mit dem Dienstgeber einigen können, soll u
 So kann der betroffene Mitarbeiter schneller seinen Vorgesetzten kontaktieren.
 
 == Ausgangssituation
-Ausgegangen wird von einem Kleinunternehmer, der den wöchentlichen Arbeitsplan seiner Mitarbeiter an einer Pinnwand aushängt. 
+Ausgegangen wird von einem Kleinunternehmer, der den wöchentlichen Arbeitsplan seiner Mitarbeiter an einer Pinnwand aushängt.
 
 == Ist-Zustand
-Viele Kleinunternehmen haben keine langfristige Lösung für flexible Arbeitszeiten für ihre Mitarbeiter, sodass die 
+Viele Kleinunternehmen haben keine langfristige Lösung für flexible Arbeitszeiten für ihre Mitarbeiter, sodass die
 zuständige Person für die Arbeitszeiten aktiv mit den Mitarbeiter alles besprechen muss.
 
 == Zielsetzung
@@ -65,7 +65,7 @@ class WorkPlan {
   -worker: Worker
   -manager: Manager
   -hoursPerWeek: double
-}  
+}
 
 
 Worker --|> Person
@@ -97,8 +97,8 @@ M -- ("Add/delete/edit work plan")
 ("Enter Login details") -[hidden]- ("Add/delete/edit work plan")
 }
 
-M -- ("Enter Login details") 
-M -- ("Show the work plan") 
+M -- ("Enter Login details")
+M -- ("Show the work plan")
 M -- ("Notify worker")
 @enduml
 ----
@@ -115,3 +115,4 @@ image::http://www.plantuml.com/plantuml/png/XP6_JiD03CRtUmehKpj4tJEr0njXoP01CLYr
 Jeder Nutzer soll nur auf ihm gerichtete Daten sehen können. Die Änderungen eines Arbeitsplaners, soll sofort den betroffenen Mitarbeiter benachrichtigen.
 
 link:gantt.html[Gantt-Diagramm],
+link:youtrack-diagramm.html[Youtrack-Diagramm]
