@@ -1,4 +1,4 @@
-package at.htl.workmanager.GUI;
+package main.java.at.htl.workmanager.GUI;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -17,7 +17,7 @@ public class Controller implements Initializable {
     @FXML
     private void handleButtonAction(ActionEvent event) {
         try {
-            App.setRoot("AccountWindow");
+            at.htl.workmanager.GUI.App.setRoot("AccountWindow");
         }
         catch (IOException ex) {
             ex.printStackTrace();
@@ -27,7 +27,7 @@ public class Controller implements Initializable {
     @FXML
     private void OnMouseClicked(ActionEvent e) {
         try {
-            App.setRoot("AccountWindow");
+            at.htl.workmanager.GUI.App.setRoot("AccountWindow");
         }
         catch (IOException ex) {
             ex.printStackTrace();

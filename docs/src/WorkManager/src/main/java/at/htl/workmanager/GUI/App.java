@@ -1,4 +1,4 @@
-package at.htl.workmanager.GUI;
+package main.java.at.htl.workmanager.GUI;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
