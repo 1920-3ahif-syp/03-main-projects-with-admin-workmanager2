@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="Daniel Andricic, Robert Rajkovaca, Yimne Raid">
+<meta name="author" content="Andricic Daniel, Yimne Raid, Robert Rajkovaca">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>Pflichtenheft Work Manager</title>
+<title>Work Manager</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -449,24 +449,15 @@ pre.rouge .hll * {
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Pflichtenheft Work Manager</h1>
+<h1>Work Manager</h1>
 <div class="details">
-<span id="author" class="author">Daniel Andricic, Robert Rajkovaca, Yimne Raid</span><br>
+<span id="author" class="author">Andricic Daniel, Yimne Raid, Robert Rajkovaca</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_motivation">1. Motivation</a></li>
-<li><a href="#_ausgangssituation">2. Ausgangssituation</a></li>
-<li><a href="#_ist_zustand">3. Ist-Zustand</a></li>
-<li><a href="#_zielsetzung">4. Zielsetzung</a>
-<ul class="sectlevel2">
-<li><a href="#_domain_object_model">4.1. Domain Object Model</a></li>
-<li><a href="#_funktionale_anforderungen">4.2. Funktionale Anforderungen</a></li>
-<li><a href="#_nichtfunktionale_anforderungen">4.3. Nichtfunktionale Anforderungen</a></li>
-</ul>
-</li>
-<li><a href="#_mengengerüst">5. Mengengerüst</a></li>
+<li><a href="#_work_manager">1. Work Manager</a></li>
+<li><a href="#_links">2. Links</a></li>
 </ul>
 </div>
 </div>
@@ -474,105 +465,34 @@ pre.rouge .hll * {
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Version: 0.1</p>
+<p>Version: 1.0</p>
 </div>
 <link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </div>
 </div>
 <div class="sect1">
-<h2 id="_motivation"><a class="anchor" href="#_motivation"></a>1. Motivation</h2>
+<h2 id="_work_manager"><a class="anchor" href="#_work_manager"></a>1. Work Manager</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Kleinunternehmer können sich meist nicht mit ihren Mitarbeitern einigen, wenn es um Arbeitszeiten geht.
-Damit die Mitarbeiter sich schneller mit dem Dienstgeber einigen können, soll unsere App eine Mitteilung hinterlassen, falls eine Änderung beim Arbeitsplan eines Mitarbeiters vorliegt.
-So kann der betroffene Mitarbeiter schneller seinen Vorgesetzten kontaktieren.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_ausgangssituation"><a class="anchor" href="#_ausgangssituation"></a>2. Ausgangssituation</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Ausgegangen wird von einem Kleinunternehmer, der den wöchentlichen Arbeitsplan seiner Mitarbeiter an einer Pinnwand aushängt.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_ist_zustand"><a class="anchor" href="#_ist_zustand"></a>3. Ist-Zustand</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Viele Kleinunternehmen haben keine langfristige Lösung für flexible Arbeitszeiten für ihre Mitarbeiter, sodass die
-zuständige Person für die Arbeitszeiten aktiv mit den Mitarbeiter alles besprechen muss.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_zielsetzung"><a class="anchor" href="#_zielsetzung"></a>4. Zielsetzung</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Unser Ziel ist eine App die einen Planer erstellt auf den nur Mitarbeiter und der Vorgesetzte Zugriff haben.
-Der Vorgesetzte kann den Arbeitsplan bestimmter Mitarbeiter erstellen, umgestalten und löschen.
-Sobald dies passiert, wird eine Benachrichtigung an den betroffenen Mitarbeiter gesendet.
-Der Mitarbeiter kann somit seinen wöchentlichen Arbeitsplan digital verfolgen.</p>
-</div>
-<div class="sect2">
-<h3 id="_domain_object_model"><a class="anchor" href="#_domain_object_model"></a>4.1. Domain Object Model</h3>
 <div class="imageblock">
 <div class="content">
-<img src="images/klassendia.png" alt="klassendia" width="382" height="251">
-</div>
-</div>
-<div class="paragraph">
-<p>image::http://www.plantuml.com/plantuml/png/fP2zQiD03CVtUmgHpda13oL3Xmuj13falkHKM-G-WgIZb3RlNXqz6vkEzM3mZx_-7pw8UjQQeeluhg05cCP98H3ZHQbaTubU15vzzYCoV3c0VHNax1CEyAPCUMpiPggFmc73a1E9c8iCG5aRCytr5dqZBoJgxZtWP7psJpsiX_uhSlO_8al9pT-UXwrL8nOqTxIlCx5EmQkn9tilBhjM4uxMV_TRDNYAdmsQqNEfRAcXr7F4UIloqBUjbWthQLCxitednEjoVGTmplMVijz_F_O1hXzks29Rz-lAFzWTC8UQuWy0[Example],</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_funktionale_anforderungen"><a class="anchor" href="#_funktionale_anforderungen"></a>4.2. Funktionale Anforderungen</h3>
-<div class="imageblock">
-<div class="content">
-<img src="images/usecase.png" alt="usecase" width="838" height="279">
-</div>
-</div>
-<div class="paragraph">
-<p>image::http://www.plantuml.com/plantuml/png/XP6_JiD03CRtUmehKpj4tJEr0njXoP01CLYrcrYv-2B7K5M8ToSfYX25qFNxtVVdvFteQFxQnn3vvE09J9hMWSJuw98qZ9teW8Oz37ZiiE7ABv5Xng6eatLi1U08TIXAr8aRR0xKYswlSXdcbwZDvCagjZUs3Dv33NaEc-n1dGqUKoCAn8uInsoxmAfDP_2MuJorm11HlzbJSZbTheHjaiil-K2q8uxil6CI_-4CAtMGFxT2nFgoMlfFy8t_TjZzqdkpFyBokR-3PheoV86_L-rPQJhw9m00[Example],</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_nichtfunktionale_anforderungen"><a class="anchor" href="#_nichtfunktionale_anforderungen"></a>4.3. Nichtfunktionale Anforderungen</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>GUI soll einfach zu bedienen sein.</p>
-</li>
-<li>
-<p>Daten vertraulich behandelt (Nur mit Login daten zugreifbar).</p>
-</li>
-<li>
-<p>Reliability, Es soll jederzeit erreichbar sein.</p>
-</li>
-<li>
-<p>Efficiency</p>
-</li>
-</ul>
+<img src="images/gantt.png" alt="gantt" width="1343" height="157">
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_mengengerüst"><a class="anchor" href="#_mengengerüst"></a>5. Mengengerüst</h2>
+<h2 id="_links"><a class="anchor" href="#_links"></a>2. Links</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Jeder Nutzer soll nur auf ihm gerichtete Daten sehen können. Die Änderungen eines Arbeitsplaners, soll sofort den betroffenen Mitarbeiter benachrichtigen.</p>
-</div>
-<div class="paragraph">
-<p><a href="gantt.html">Gantt-Diagramm</a>,</p>
+<p><a href="index.html">Zur Startseite zurückkehren</a>,
+link: index.html[Zur Startseite zurückkehren]</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-04-19 18:15:37 UTC
+Last updated 2020-04-20 08:43:05 UTC
 </div>
 </div>
 </body>
