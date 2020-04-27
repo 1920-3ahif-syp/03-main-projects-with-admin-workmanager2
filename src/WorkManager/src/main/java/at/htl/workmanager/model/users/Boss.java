@@ -1,6 +1,6 @@
-package main.java.at.htl.workmanager.Users;
+package at.htl.workmanager.model.users;
 
-public class Boss  extends at.htl.workmanager.Users.Person {
+public class Boss  extends Person {
 
     private String firstName;
     private String lastName;

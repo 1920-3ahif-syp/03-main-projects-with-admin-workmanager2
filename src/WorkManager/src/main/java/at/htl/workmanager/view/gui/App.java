@@ -1,4 +1,4 @@
-package main.java.at.htl.workmanager.GUI;
+package at.htl.workmanager.view.gui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -17,7 +17,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        Parent root = FXMLLoader.load(App.class.getResource("/at/htl/workmanager/GUI/Login.fxml"));
+        Parent root = FXMLLoader.load(App.class.getResource("/at/htl/workmanager/view/gui/Login.fxml"));
         scene = new Scene(root, 600, 400);
 
         stage.setTitle("Login Workmanager");

@@ -1,7 +1,7 @@
-package main.java.at.htl.workmanager.Observer;
+package at.htl.workmanager.model.observer;
 
-import at.htl.workmanager.WorkPlan.WorkDay;
-import at.htl.workmanager.Observer.Observer;
+
+import at.htl.workmanager.model.workPlan.WorkDay;
 
 public interface Subject {
     void registerObserver(Observer observer);

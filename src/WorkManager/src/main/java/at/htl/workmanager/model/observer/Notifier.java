@@ -1,6 +1,7 @@
-package main.java.at.htl.workmanager.Observer;
+package at.htl.workmanager.model.observer;
 
-import at.htl.workmanager.WorkPlan.WorkDay;
+
+import at.htl.workmanager.model.workPlan.WorkDay;
 
 import java.util.LinkedList;
 import java.util.List;
