@@ -5,6 +5,7 @@ module at.htl.workmanager {
     requires org.apache.derby.client;
     requires org.apache.derby.commons;
     requires org.apache.derby.tools;
+    requires org.mybatis;
 
     opens at.htl.workmanager.view.gui to javafx.fxml;
     exports at.htl.workmanager.view.gui;
