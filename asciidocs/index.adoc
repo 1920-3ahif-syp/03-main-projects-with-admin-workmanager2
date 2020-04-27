@@ -38,6 +38,10 @@ Der Vorgesetzte kann den Arbeitsplan bestimmter Mitarbeiter erstellen, umgestalt
 Sobald dies passiert, wird eine Benachrichtigung an den betroffenen Mitarbeiter gesendet.
 Der Mitarbeiter kann somit seinen wöchentlichen Arbeitsplan digital verfolgen.
 
+=== ERD Diagramm
+
+image:erd_diagramm.jpg
+
 === Domain Object Model
 [plantuml,klassendia,png]
 ----
