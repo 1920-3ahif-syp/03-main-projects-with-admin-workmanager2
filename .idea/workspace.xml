@@ -20,23 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4994e2f5-57cf-4d79-9044-1c3d3f73fd2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/protocols/protocoll-27.04.2020.adoc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/WorkManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/WorkManager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/Observer/Notifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/observer/Notifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/Observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/Observer/ObserverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/observer/ObserverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/Observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/Users/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/users/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/Users/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/users/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/Users/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/users/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/WorkPlan/WorkDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/model/workPlan/WorkDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/view/GUI/AccountWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/view/gui/AccountWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/view/GUI/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/at/htl/workmanager/view/gui/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/resources/at/htl/workmanager/GUI/AccountWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/resources/at/htl/workmanager/view/gui/AccountWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/main/resources/at/htl/workmanager/GUI/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/resources/at/htl/workmanager/view/gui/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkManager/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkManager/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +32,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="ee52e246-6c11-47fa-9a19-7e88ac5d299c" value="0d6000" />
-    </colors>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -64,12 +44,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Apache Derby (Remote) -" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="Git.Settings">
@@ -77,6 +52,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1ZDChjMh18SzDJIgoAoCmMbTaAK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -120,18 +98,21 @@
       <workItem from="1585566427576" duration="1320000" />
       <workItem from="1587317408554" duration="9931000" />
       <workItem from="1587985451930" duration="1116000" />
+      <workItem from="1587991091314" duration="859000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -142,10 +123,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="901" y="299" key="#App/0.23.2560.1417@0.23.2560.1417" timestamp="1587987833059" />
-    <state x="636" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587383918937">
+    <state x="636" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587991372328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587383918937" />
+    <state x="636" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587991372328" />
     <state x="636" y="128" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585566949605" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1587383003177">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -174,10 +155,10 @@
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587388344533" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585566967909" />
     <state x="615" y="244" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1587985528123" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587317422653">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587991136383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587317422653" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587991136383" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1585566426699" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587383260325">
       <screen x="0" y="0" width="1920" height="1040" />
