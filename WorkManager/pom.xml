@@ -67,7 +67,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.4</version>
                 <configuration>
-                    <mainClass>main.java.at.htl.workmanager.view.App</mainClass>
+                    <mainClass>at.htl.workmanager.view.App</mainClass>
                 </configuration>
             </plugin>
         </plugins>

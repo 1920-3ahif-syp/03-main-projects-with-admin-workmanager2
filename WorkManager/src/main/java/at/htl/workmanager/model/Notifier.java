@@ -1,4 +1,4 @@
-package main.java.at.htl.workmanager.model;
+package at.htl.workmanager.model;
 
 
 import java.util.LinkedList;

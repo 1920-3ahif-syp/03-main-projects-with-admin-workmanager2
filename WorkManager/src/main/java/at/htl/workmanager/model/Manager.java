@@ -1,6 +1,6 @@
 package at.htl.workmanager.model;
 
-import main.java.at.htl.workmanager.model.Person;
+import at.htl.workmanager.model.Person;
 
 public class Manager extends Person {
 

@@ -9,8 +9,5 @@
         <module name="WorkManager" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="WorkManager" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

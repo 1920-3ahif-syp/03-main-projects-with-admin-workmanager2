@@ -1,4 +1,4 @@
-package main.java.at.htl.workmanager.view;
+package at.htl.workmanager.view;
 
 import javafx.fxml.Initializable;
 import java.net.URL;
