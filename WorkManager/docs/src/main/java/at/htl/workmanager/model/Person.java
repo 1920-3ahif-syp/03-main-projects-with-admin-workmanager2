@@ -1,6 +1,8 @@
 package at.htl.workmanager.model;
 
-public class Person implements Observer {
+import java.util.Observer;
+
+public class Person {
 
     private String userName;
     private String password;
@@ -35,10 +37,4 @@ public class Person implements Observer {
         //In-Progress!
     }
 
-    @Override
-    public void update(WorkDay day) {
-        if(day.getEmployee().getFullName().equals(getFullName())) {
-            System.out.println("Worker " + getFullName() + " your Workplan has been changed!");
-        }
-    }
 }

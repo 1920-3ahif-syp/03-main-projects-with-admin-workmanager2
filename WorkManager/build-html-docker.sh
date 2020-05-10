@@ -1,6 +1,7 @@
 set -e
 # copy to gh-pages
 BUILD_DIR="docs"
+echo $BUILD_DIR
 rm -rf -v $BUILD_DIR # else plantuml diagrams won't be rebuilt
 # do not copy revealjs
 mkdir -p $BUILD_DIR

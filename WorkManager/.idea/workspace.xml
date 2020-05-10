@@ -2,61 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a21ea87-9bd2-4e89-bd0c-15efb8c3b3c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/database/SqlRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/WorkDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/view/AccountWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/view/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanager/view/AccountWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanager/view/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-html-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-html-docker.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/projektantrag_Workmanager.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projektantrag_Workmanager.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/projektauftrag_Workmanager.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projektauftrag_Workmanager.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Notifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Notifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/ObserverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/ObserverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/at/htl/workmanager/view/AccountWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/at/htl/workmanager/view/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/database/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/database/SqlRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Notifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/ObserverController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/WorkDay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/view/AccountWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/view/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/clean-all.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Notifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/ObserverController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +170,8 @@
       <workItem from="1588792171479" duration="798000" />
       <workItem from="1588831370586" duration="1955000" />
       <workItem from="1588846192844" duration="7348000" />
-      <workItem from="1589038500299" duration="7483000" />
+      <workItem from="1589038500299" duration="8143000" />
+      <workItem from="1589121905839" duration="1231000" />
     </task>
     <servers />
   </component>
@@ -257,30 +217,30 @@
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588843972535" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588846343441" />
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1589056692993">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1589115652408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692993" />
-    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1589056692992">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589115652408" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1589115652408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692992" />
-    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1589056692992">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589115652408" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1589115652408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692992" />
-    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1589056692992">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589115652408" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1589115652408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692992" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589115652408" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1588831575159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588831575159" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589041852635">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589121934575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589041852635" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589121934575" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588846195002" />
     <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588831572034">
       <screen x="0" y="0" width="1920" height="1040" />
