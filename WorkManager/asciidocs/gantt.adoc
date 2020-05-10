@@ -23,7 +23,8 @@ Version: {revision}
 ....
 @startgantt
 Project starts the 16th of march 2020
-[Prototype design] as [Design] lasts 8 weeks
+[Prototype design] as [Design] lasts 58 days
+[Design] is 80% completed
 [Design] is colored in Lavender/LightBlue
 
 [Test Prototype] as [Test] lasts 5 days

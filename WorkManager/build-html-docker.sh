@@ -4,7 +4,7 @@ BUILD_DIR="docs"
 rm -rf -v $BUILD_DIR # else plantuml diagrams won't be rebuilt
 # do not copy revealjs
 mkdir -p $BUILD_DIR
-cp -r -p -v asciidocs/images $BUILD_DIR/images/
+cp -r -p -v asciidocs/images/* $BUILD_DIR/images/
 cp -r -p -v asciidocs/themes $BUILD_DIR
 cp -r -p -v asciidocs/docinfo.html $BUILD_DIR
 #cp -r -p -v asciidocs/.nojekyll $BUILD_DIR

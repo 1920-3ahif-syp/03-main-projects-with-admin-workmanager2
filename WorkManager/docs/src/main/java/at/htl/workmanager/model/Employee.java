@@ -1,6 +1,6 @@
 package at.htl.workmanager.model;
 
-public class Employee implements Observer {
+public class Employee {
 
     public String getLastName() {
         return lastName;
@@ -56,10 +56,4 @@ public class Employee implements Observer {
         return firstName + " " + lastName;
     }
 
-    @Override
-    public void update(WorkDay day) {
-        if(day.getEmployee().getFullName().equals(getFullName())) {
-            this.worked = day.getHours();
-        }
-    }
 }

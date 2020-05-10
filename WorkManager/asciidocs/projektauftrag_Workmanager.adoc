@@ -68,3 +68,9 @@ Es sollen keine persönliche Daten an unbefugten Personen weitergeleitet werden.
 
 * Datenbank-Server
 * Applikation
+
+link:index.html[Pflichtenheft]
+link:youtrack-diagramm.html[Youtrack Diagramm]
+link:gantt.html[Gantt-Diagramm]
+link:projekauftrag_Workmanager.html[Projektauftrag]
+link:projektantrag_Workmanager.html[Projektantrag]

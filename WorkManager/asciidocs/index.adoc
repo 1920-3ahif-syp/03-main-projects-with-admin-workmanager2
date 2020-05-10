@@ -40,7 +40,7 @@ Der Mitarbeiter kann somit seinen wöchentlichen Arbeitsplan digital verfolgen.
 
 === ERD Diagramm
 
-image:erd_diagramm.jpg
+image::erd_diagramm.jpg[ERD-Diagramm]
 
 === Domain Object Model
 [plantuml,klassendia,png]
@@ -120,3 +120,5 @@ Jeder Nutzer soll nur auf ihm gerichtete Daten sehen können. Die Änderungen ei
 
 link:gantt.html[Gantt-Diagramm],
 link:youtrack-diagramm.html[Youtrack-Diagramm]
+link:projektantrag_Workmanager.html[Projektantrag]
+link:projektauftrag_Workmanager.html[Projektauftrag]
