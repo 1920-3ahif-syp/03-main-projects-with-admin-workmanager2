@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a21ea87-9bd2-4e89-bd0c-15efb8c3b3c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/database/SqlRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/WorkDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/view/AccountWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/view/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-html-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-html-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/projektantrag_Workmanager.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projektantrag_Workmanager.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/projektauftrag_Workmanager.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/docs/projektauftrag_Workmanager.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Notifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Notifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/ObserverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/ObserverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/at/htl/workmanager/view/AccountWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/at/htl/workmanager/view/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/database/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/database/SqlRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Notifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/ObserverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/model/WorkDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/view/AccountWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htl/workmanager/view/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Database" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\Desktop\03-main-projects-with-admin-workmanager2\WorkManager\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bXxJHjfPL55lnedTWIeKDfImD9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="derby" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="at.htl.workmanager.view" />
+      <recent name="at.htl.workmanager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\03-main-projects-with-admin-workmanager2\WorkManager\src\main\resources\at\htl\workmanager\view" />
+      <recent name="C:\Users\User\Desktop\03-main-projects-with-admin-workmanager2\WorkManager\src\main\resources\at.htl.workmanager.view" />
+      <recent name="C:\Users\User\Desktop\Project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="at.htl.workmanager.view.App" />
+      <module name="WorkManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maven" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:compile" />
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Maven.Maven" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a21ea87-9bd2-4e89-bd0c-15efb8c3b3c2" name="Default Changelist" comment="" />
+      <created>1588792165334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588792165334</updated>
+      <workItem from="1588792171479" duration="798000" />
+      <workItem from="1588831370586" duration="1955000" />
+      <workItem from="1588846192844" duration="7348000" />
+      <workItem from="1589038500299" duration="7483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#New_Docker_Connection" timestamp="1588862630315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#New_Docker_Connection/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588862630315" />
+    <state x="552" y="178" key="#Path_mapping" timestamp="1588862628884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Path_mapping/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588862628884" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588846449438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588844046195" />
+    <state x="2472" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588792375676" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588846449438" />
+    <state x="827" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588792700042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588792700042" />
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589058289293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="405" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589058289293" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589070210997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589070210997" />
+    <state x="440" y="114" key="CommitChangelistDialog2" timestamp="1589104590089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589104590089" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1588846343441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588843972535" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588846343441" />
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1589056692993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692993" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1589056692992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692992" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1589056692992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692992" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1589056692992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589056692992" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1588831575159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588831575159" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589041852635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589041852635" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588846195002" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588831572034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588831572034" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588862636913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588862636913" />
+  </component>
+</project>
