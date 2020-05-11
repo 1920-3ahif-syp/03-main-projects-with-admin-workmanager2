@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a21ea87-9bd2-4e89-bd0c-15efb8c3b3c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanager/view/AccountWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanager/view/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-html-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-html-docker.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/clean-all.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Notifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/ObserverController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/AccountWindow.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanagaer/view/Login.fxml" beforeDir="false" />
-    </list>
+    <list default="true" id="9a21ea87-9bd2-4e89-bd0c-15efb8c3b3c2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,21 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\User\Desktop\03-main-projects-with-admin-workmanager2\WorkManager\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1bXxJHjfPL55lnedTWIeKDfImD9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,7 +47,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -86,6 +56,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -94,6 +65,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -134,7 +106,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../.." />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -144,18 +116,6 @@
       <item itemvalue="Application.App" />
       <item itemvalue="Maven.Maven" />
     </list>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,14 +132,18 @@
       <workItem from="1588846192844" duration="7348000" />
       <workItem from="1589038500299" duration="8143000" />
       <workItem from="1589121905839" duration="1231000" />
+      <workItem from="1589201083420" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#New_Docker_Connection" timestamp="1588862630315">
@@ -233,10 +197,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589115652408" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1588831575159">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="587" y="130" key="SettingsEditor" timestamp="1589201097803">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588831575159" />
+    <state x="587" y="130" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1589201097803" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589121934575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
