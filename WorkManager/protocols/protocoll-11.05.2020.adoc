@@ -1,0 +1,72 @@
+= Besprechungsprotokoll 20.04.2020
+Daniel Andricic
+1.0, 2020-05-11
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+//:toc: left
+
+.Teilnehmer
+|===
+|anwesend |Verteiler
+
+|Daniel Andricic
+|
+
+|Robert Rajkovaca
+|
+
+|T. Stütz
+|
+|===
+
+.Ort und Zeit
+[cols=2*]
+|===
+|Ort
+|Discord
+
+|von-bis
+|Mo. 11.05.2020, 5. und 6. EH
+|Dauer
+|ca. 50 Minuten
+|===
+
+== Besprochene Themen
+
+* Datenbank (SQL Files und Derby)
+* ERD-Diagramm
+* AssertJ Unit Test
+
+=== Vereinbarungen und Entscheidungen
+
+Es fehlen noch ein Deployment- und ein ERD-Diagramm.
+
+===== ERD-Diagramm
+
+Unser ERD-Diagramm wurde ausgebessert und dem entsprechend auch in der Derby-Datenbank.
+Es besteht jetzt aus 4 Tabellen: Member, Employee, Role und Schedule.
+
+==== Datenbank
+
+Bei der Bewertung waren noch keine SQL-Files zum Bewerten, vorhanden.
+Dies haben wir bis zur nächsten Unterrichtseinheit erledigt und sind jetzt mit die Unit-Tests beschäftigt.
+
+==== AssertJ Unit Test
+
+Die Unit-Test sollen beweisen, dass unsere Daten richtig in die Datenbank gespeichert werden.
+Es soll auschließlich mit AssertJ-Unit-Tests gearbeitet werden.
+Die Unit-Tests sollen in der Datei RepositoryTest ausgeführt werden.
+
+Das ist das verbesserte ERD-Diagramm.
+
+image::erd_Verbesserung.png[Verbessertes ERD-Diagramm]
+
+image::workmanager_erd.png[ERD-Diagramm]
+
+==== Links
+
+Hier stehen die Links die vom Professor freigegeben wurden.
+
+link:http://tutorials.jenkov.com/javafx/index.html[Jenkov-JavaFX-Tutorial]
+
+link:https://gist.github.com/htl-leonding[Gist für Repo]

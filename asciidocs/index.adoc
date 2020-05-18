@@ -40,50 +40,7 @@ Der Mitarbeiter kann somit seinen wöchentlichen Arbeitsplan digital verfolgen.
 
 === ERD Diagramm
 
-image::erd_diagramm.jpg[ERD-Diagramm]
-
-=== Domain Object Model
-////
-[plantuml,klassendia,png]
-----
-@startuml
-left to right direction
-class Manager {
-  -username: String
-  -password: String
-  -permissions: int
-  -workplans: List
-}
-class Worker {
-  -manager Manager
-  -username: String
-  -password: String
-  -permissions: int
-}
-class Person {
-    #name: String
-    #age: int
-    #birthdate: Date
-}
-class WorkPlan {
-  -dailyWorkingHours: double
-  -worker: Worker
-  -manager: Manager
-  -hoursPerWeek: double
-}
-
-
-Worker --|> Person
-Manager --|> Person
-Worker "1" -- "1" WorkPlan
-Manager -- WorkPlan
-
-@enduml
-----
-////
-//image::http://www.plantuml.com/plantuml/png/fP2zQiD03CVtUmgHpda13oL3Xmuj13falkHKM-G-WgIZb3RlNXqz6vkEzM3mZx_-7pw8UjQQeeluhg05cCP98H3ZHQbaTubU15vzzYCoV3c0VHNax1CEyAPCUMpiPggFmc73a1E9c8iCG5aRCytr5dqZBoJgxZtWP7psJpsiX_uhSlO_8al9pT-UXwrL8nOqTxIlCx5EmQkn9tilBhjM4uxMV_TRDNYAdmsQqNEfRAcXr7F4UIloqBUjbWthQLCxitednEjoVGTmplMVijz_F_O1hXzks29Rz-lAFzWTC8UQuWy0[Example],
-
-image::klassendiagramm.png[Klassendiagramm,814,224]
+image::workmanager_erd.png[ERD-Diagramm]
 
 === Funktionale Anforderungen
 [plantuml,usecase,png]
@@ -109,8 +66,6 @@ M -- ("Show the work plan")
 M -- ("Notify worker")
 @enduml
 ----
-//http://www.plantuml.com/plantuml/uml/XP6_JiD03CRtUmehKpj4tJEr0njXoP01CLYrcrYv-2B7K5M8ToSfYX25qFNxtVVdvFteQFxQnn3vvE09J9hMWSJuw98qZ9teW8Oz37ZiiE7ABv5Xng6eatLi1U08TIXAr8aRR0xKYswlSXdcbwZDvCagjZUs3Dv33NaEc-n1dGqUKoCAn8uInsoxmAfDP_2MuJorm11HlzbJSZbTheHjaiil-K2q8uxil6CI_-4CAtMGFxT2nFgoMlfFy8t_TjZzqdkpFyBokR-3PheoV86_L-rPQJhw9m00
-//image::http://www.plantuml.com/plantuml/png/XP6_JiD03CRtUmehKpj4tJEr0njXoP01CLYrcrYv-2B7K5M8ToSfYX25qFNxtVVdvFteQFxQnn3vvE09J9hMWSJuw98qZ9teW8Oz37ZiiE7ABv5Xng6eatLi1U08TIXAr8aRR0xKYswlSXdcbwZDvCagjZUs3Dv33NaEc-n1dGqUKoCAn8uInsoxmAfDP_2MuJorm11HlzbJSZbTheHjaiil-K2q8uxil6CI_-4CAtMGFxT2nFgoMlfFy8t_TjZzqdkpFyBokR-3PheoV86_L-rPQJhw9m00[Example],
 
 === Nichtfunktionale Anforderungen
 * GUI soll einfach zu bedienen sein.

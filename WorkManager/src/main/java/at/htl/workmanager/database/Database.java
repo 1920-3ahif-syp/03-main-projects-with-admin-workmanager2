@@ -12,7 +12,7 @@ public class Database {
     static final String DATABASE = "db";
     static final String USERNAME = "app";
     static final String PASSWORD = "app";
-    public static final String URL = "jdbc:derby://localhost:1527/" + DATABASE + ";create=true";
+    public static final String URL = "jdbc:derby://localhost:1527/" + DATABASE + ";username=" + USERNAME + ";password=" + PASSWORD; //+ ";create=true";
 
 
     public static DataSource getDataSource(){
@@ -25,15 +25,21 @@ public class Database {
 
     public void createTableTest(){
         try (Connection conn = getDataSource().getConnection()) {
-            String sql = "create table word (" +
-                    "id int primary key," +
-                    "german_word varchar(100)," +
-                    "english_word varchar(100)" +
+            String sql = "CREATE TABLE MEMBER (" +
+                    "INT NOT NULL\n" +
+                    "        CONSTRAINT MEMBER_PK PRIMARY KEY\n" +
+                    "        GENERATED ALWAYS AS IDENTITY,," +
+                    "m_s_id INT NOT NULL CONSTRAINT M_S_FK REFERENCES schedule(s_id),\n" +
+                    "m_emp_id INT NOT NULL CONSTRAINT M_EMP_FK REFERENCES employee(emp_id),\n" +
+                    "m_member_name VARCHAR(32)," +
+                    "m_phone_number VARCHAR(11)" +
                     ")";
 
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.execute();
 
+            conn.close();
+            ps.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

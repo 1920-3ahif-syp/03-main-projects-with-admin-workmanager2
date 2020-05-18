@@ -1,8 +1,14 @@
 package at.htl.workmanager.model;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 public class Repository {
 
     private static Repository instance;
+    private Connection connection;
+    private static
 
     private Repository() {
     }
@@ -15,5 +21,17 @@ public class Repository {
         return instance;
     }
 
+    public void dropTables() {
+        try {
+            connection = DriverManager.getConnection("jdbc:derby:db;username=" + USERNAME);
 
+        }
+        catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+    public void createTables() {
+    }
 }

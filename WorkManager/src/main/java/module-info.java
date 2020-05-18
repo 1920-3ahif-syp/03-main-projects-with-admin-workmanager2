@@ -7,7 +7,6 @@ open module at.htl.workmanager {
     requires org.apache.derby.tools;
     requires org.mybatis;
 
-    //at.htl.workmanager.view to javafx.fxml;
     exports at.htl.workmanager.view;
     exports at.htl.workmanager.controller;
     exports at.htl.workmanager.model;
