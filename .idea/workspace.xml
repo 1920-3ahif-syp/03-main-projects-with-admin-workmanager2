@@ -94,42 +94,8 @@
       <change afterPath="$PROJECT_DIR$/WorkManager/db/seg0/ce1.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WorkManager/db/seg0/cf0.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WorkManager/db/service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asciidocs/images/workmanager_db_schema.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WorkManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager/sql/cr_vokabel.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager/sql/dr_vokabel.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager/src/main/java/at/htl/workmanager/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorkManager/src/main/java/at/htl/workmanager/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager/src/main/java/at/htl/workmanager/database/SqlRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorkManager/src/main/java/at/htl/workmanager/database/SqlRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager/src/main/java/at/htl/workmanager/model/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorkManager/src/main/java/at/htl/workmanager/model/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager/src/main/test/WordRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorkManager/src/main/test/WordRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asciidocs/images/workmanager_erd.png" beforeDir="false" afterPath="$PROJECT_DIR$/asciidocs/images/workmanager_erd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asciidocs/index.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/asciidocs/index.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-html-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-html-docker.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/gantt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/erd_diagramm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/gantt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/klassendiagramm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/usecase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/youtrack-diagramm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/projektantrag_Workmanager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/projektauftrag_Workmanager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/database/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/database/SqlRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/model/WorkDay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/view/AccountWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/at/htl/workmanager/view/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanager/view/AccountWindow.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/src/main/resources/at/htl/workmanager/view/Login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/youtrack-diagramm.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,8 +159,16 @@
       <workItem from="1590677073518" duration="48000" />
       <workItem from="1590925923021" duration="2707000" />
       <workItem from="1591296969128" duration="600000" />
-      <workItem from="1591522464800" duration="1374000" />
+      <workItem from="1591522464800" duration="2699000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated Docu">
+      <created>1591523984140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591523984140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,17 +176,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Protocoll (11.05.2020), Edited ERD-Diagramm, Added SQL-Files for Derby and Added Tables in Derby-DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Protocoll (11.05.2020), Edited ERD-Diagramm, Added SQL-Files for Derby and Added Tables in Derby-DB" />
+    <MESSAGE value="Updated Docu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Docu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="412" y="114" key="CommitChangelistDialog2" timestamp="1589797542149">
+    <state x="412" y="114" key="CommitChangelistDialog2" timestamp="1591523980867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="412" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589797542149" />
+    <state x="412" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591523980867" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590677119568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590677119568" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591524017369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591524017369" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591522511654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

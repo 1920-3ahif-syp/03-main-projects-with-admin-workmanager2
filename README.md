@@ -1,4 +1,4 @@
-# Anleitung zur Benützung
+# Anleitung für die Workmanager-APP
 ## Projektbezeichnung
 Work Manager
 
