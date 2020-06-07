@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a21ea87-9bd2-4e89-bd0c-15efb8c3b3c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/db.lck" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
@@ -74,18 +70,19 @@
       <change afterPath="$PROJECT_DIR$/db/seg0/c461.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/seg0/c470.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/seg0/c481.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c490.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c4a1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c4b0.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c4c1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c4d1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c4e0.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c4f1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c500.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/seg0/c51.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c511.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c521.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/seg0/c531.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c540.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c551.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c560.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c571.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c581.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c590.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seg0/c5f1.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/seg0/c60.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/seg0/c71.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/seg0/c81.dat" afterDir="false" />
@@ -97,46 +94,41 @@
       <change afterPath="$PROJECT_DIR$/db/seg0/ce1.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/seg0/cf0.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/db/service.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocols/images/erd_Verbesserung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocols/images/protokoll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocols/images/workmanager_erd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocols/protocoll-11.05.2020.adoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/CR_workplan.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/DR_workmanager.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/INS_workplan.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/sql-files.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/Test_Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/Test_Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/Test_Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/WordRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/WordRepositoryTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../asciidocs/images/workmanager_erd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18ff2c0e-4911-47eb-973a-cd409fe0103d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18ff2c0e-4911-47eb-973a-cd409fe0103d/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18ff2c0e-4911-47eb-973a-cd409fe0103d/storage_v2/_src_/schema/SYSCS_UTIL.JC_i2A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18ff2c0e-4911-47eb-973a-cd409fe0103d/storage_v2/_src_/schema/SYSIBM.hzyvkg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../asciidocs/images/workmanager_db_schema.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorkManager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-all.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-pdf-docker.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/cr_vokabel.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/dr_vokabel.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/database/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/database/SqlRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/database/SqlRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/model/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/view/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/workmanager/view/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../asciidocs/Projektantrag_RaidAndricicRajkovaca.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../asciidocs/Projektauftrag_RaidAndricic_Rajkovaca.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../asciidocs/images/erd_diagramm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../asciidocs/images/klassendia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../asciidocs/images/klassendiagramm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/WordRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/WordRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../asciidocs/images/workmanager_erd.png" beforeDir="false" afterPath="$PROJECT_DIR$/../asciidocs/images/workmanager_erd.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../asciidocs/index.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/../asciidocs/index.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-html-docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../build-html-docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/gantt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/erd_diagramm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/gantt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/klassendiagramm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/usecase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/youtrack-diagramm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/projektantrag_Workmanager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/projektauftrag_Workmanager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/database/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/database/SqlRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/model/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/model/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/model/WorkDay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/view/AccountWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/at/htl/workmanager/view/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/resources/at/htl/workmanager/view/AccountWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/src/main/resources/at/htl/workmanager/view/Login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/youtrack-diagramm.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,12 +160,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
-        <item name="MEMBER: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -224,8 +210,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -290,7 +277,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="db: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@782c6a2" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3ebf752a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -317,15 +304,40 @@
       <workItem from="1589730688922" duration="2412000" />
       <workItem from="1589733639239" duration="187000" />
       <workItem from="1589733904250" duration="728000" />
-      <workItem from="1589738491246" duration="10610000" />
+      <workItem from="1589738491246" duration="12118000" />
+      <workItem from="1590677135210" duration="2196000" />
+      <workItem from="1591281422427" duration="6961000" />
     </task>
+    <task id="LOCAL-00001" summary="Added protocoll-11.05.2020.adoc, Added Derby-Db with Tables and SQL Files">
+      <created>1589799560277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589799560283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added protocoll-11.05.2020.adoc, Added Derby-Db with Tables and SQL Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added protocoll-11.05.2020.adoc, Added Derby-Db with Tables and SQL Files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#New_Docker_Connection" timestamp="1588862630315">
@@ -336,10 +348,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Path_mapping/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588862628884" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589730975827">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591281700009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589730975827" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591281700009" />
     <state x="2472" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588792375676" />
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588846449438" />
     <state x="827" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588792700042">
@@ -354,31 +366,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589070210997" />
-    <state x="440" y="114" key="CommitChangelistDialog2" timestamp="1589104590089">
+    <state x="440" y="114" key="CommitChangelistDialog2" timestamp="1589799535237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589104590089" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589796171796">
+    <state x="440" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589799535237" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1591296960936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589796171796" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591296960936" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588846343441" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1589733113610">
+    <state width="1293" height="2" key="GridCell.Tab.0.bottom" timestamp="1591296779483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589733113610" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1589733113610">
+    <state width="1293" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591296779483" />
+    <state width="1293" height="2" key="GridCell.Tab.0.center" timestamp="1591296779483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589733113610" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1589733113610">
+    <state width="1293" height="2" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591296779483" />
+    <state width="1293" height="2" key="GridCell.Tab.0.left" timestamp="1591296779483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589733113610" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1589733113610">
+    <state width="1293" height="2" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591296779483" />
+    <state width="1293" height="2" key="GridCell.Tab.0.right" timestamp="1591296779483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589733113610" />
+    <state width="1293" height="2" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591296779483" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1589733113610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -399,18 +411,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589797745475" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1588831575159">
+    <state x="767" y="136" key="SettingsEditor" timestamp="1591296852159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588831575159" />
+    <state x="767" y="136" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591296852159" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589829134627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589829134627" />
     <state x="853" y="410" width="326" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1589731411035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="853" y="410" width="326" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589731411035" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589733912200">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591281420127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589733912200" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591281420127" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588846195002" />
     <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588831572034">
       <screen x="0" y="0" width="1920" height="1040" />

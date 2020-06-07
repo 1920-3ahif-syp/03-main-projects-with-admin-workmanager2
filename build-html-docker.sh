@@ -1,7 +1,6 @@
 set -e
 # copy to gh-pages
 BUILD_DIR="docs"
-<<<<<<< HEAD
 rm -rf -v $BUILD_DIR # else plantuml diagrams won't be rebuilt
 # do not copy revealjs
 mkdir -p $BUILD_DIR
@@ -12,7 +11,6 @@ rm -rf -v $BUILD_DIR # else plantuml diagrams won't be rebuilt
 # do not copy revealjs
 mkdir -p $BUILD_DIR
 cp -r -p -v asciidocs/images $BUILD_DIR/images/
->>>>>>> 9ded13247c0983c05f5df84aa2da57b50b11c23b
 cp -r -p -v asciidocs/themes $BUILD_DIR
 cp -r -p -v asciidocs/docinfo.html $BUILD_DIR
 #cp -r -p -v asciidocs/.nojekyll $BUILD_DIR

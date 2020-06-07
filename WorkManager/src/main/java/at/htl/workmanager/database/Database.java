@@ -24,8 +24,11 @@ public class Database {
     }
 
     public void createTableTest(){
-        try (Connection conn = getDataSource().getConnection()) {
-            String sql = "CREATE TABLE MEMBER (" +
+        try {
+            Connection conn = getDataSource().getConnection();
+            conn.setAutoCommit(true);
+
+            PreparedStatement ps = conn.prepareStatement("CREATE TABLE MEMBER (" +
                     "INT NOT NULL\n" +
                     "        CONSTRAINT MEMBER_PK PRIMARY KEY\n" +
                     "        GENERATED ALWAYS AS IDENTITY,," +
@@ -33,9 +36,7 @@ public class Database {
                     "m_emp_id INT NOT NULL CONSTRAINT M_EMP_FK REFERENCES employee(emp_id),\n" +
                     "m_member_name VARCHAR(32)," +
                     "m_phone_number VARCHAR(11)" +
-                    ")";
-
-            PreparedStatement ps = conn.prepareStatement(sql);
+                    ")");
             ps.execute();
 
             conn.close();

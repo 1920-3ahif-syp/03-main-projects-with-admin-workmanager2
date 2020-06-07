@@ -8,7 +8,8 @@ public class Repository {
 
     private static Repository instance;
     private Connection connection;
-    private static
+    private static final String USERNAME = "app";
+    private static final String PASSWORD = "app";
 
     private Repository() {
     }
@@ -23,7 +24,8 @@ public class Repository {
 
     public void dropTables() {
         try {
-            connection = DriverManager.getConnection("jdbc:derby:db;username=" + USERNAME);
+            connection = DriverManager.getConnection("jdbc:derby:db;username=" + USERNAME + ";password=" + PASSWORD + ";");
+            connection.setAutoCommit(true);
 
         }
         catch (SQLException ex) {
@@ -34,4 +36,6 @@ public class Repository {
 
     public void createTables() {
     }
+
+
 }
