@@ -1,20 +1,24 @@
 package at.htl.workmanager.model;
 
-import java.util.Observer;
-
 public class Person {
 
+    private static long id;
     private String userName;
     private String password;
     private String firstName;
     private String lastName;
 
 
-    public Person(String firstName, String lastName, String userName, String password) {
+    public Person(long id, String firstName, String lastName, String userName, String password) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.userName = userName;
         this.password = password;
+    }
+
+    protected long getId() {
+        return this.id;
     }
 
     protected String getUserName() {
@@ -35,6 +39,11 @@ public class Person {
 
     private void changePassword(String newPassword) {
         //In-Progress!
+    }
+
+    @Override
+    public String toString() {
+        return "Person: ID: " + this.id + " Firstname: " + getFirstName() + " Lastname: " + getLastName();
     }
 
 }

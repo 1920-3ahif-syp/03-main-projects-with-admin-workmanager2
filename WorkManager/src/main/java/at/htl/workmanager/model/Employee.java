@@ -1,59 +1,22 @@
 package at.htl.workmanager.model;
 
-public class Employee {
+public class Employee extends Person{
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public double getWeekHours() {
-        return weekHours;
-    }
-
-    public double getOvertime() {
-        return overtime;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setWeekHours(double weekHours) {
-        this.weekHours = weekHours;
-    }
-
-    public void setOvertime(double overtime) {
-        this.overtime = overtime;
-    }
-
+    private static long id;
     private String firstName;
     private String lastName;
-    private double weekHours;
-    private double overtime;
-    private double worked;
 
-    public Employee(String firstName, String lastName, double weekHours) {
-        setFirstName(firstName);
-        setLastName(lastName);
-        setWeekHours(weekHours);
-    }
-
-    private void calculateOvertime (){
-        if (worked > weekHours){
-            setOvertime(worked - getWeekHours());
-        }
+    public Employee(long id, String firstName, String lastName, String username, String password) {
+        super(id, firstName, lastName, username, password);
     }
 
     public String getFullName() {
         return firstName + " " + lastName;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee: ID: " + this.id + " Firstname: " + getFirstName() + " Lastname: " + getLastName();
     }
 
 }

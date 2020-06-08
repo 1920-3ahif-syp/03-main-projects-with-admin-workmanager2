@@ -80,5 +80,5 @@ Projektteam: Yimne Raid, Daniel Andricic, Robert Rajkovaca
 link:index.html[Pflichtenheft]
 link:youtrack-diagramm.html[Youtrack Diagramm]
 link:gantt.html[Gantt-Diagramm]
-link:projekauftrag_Workmanager.html[Projektauftrag]
+link:projektauftrag_Workmanager.html[Projektauftrag]
 link:projektantrag_Workmanager.html[Projektantrag]
