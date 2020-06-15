@@ -17,22 +17,22 @@
 //public class WordRepositoryTest2 {
 //
 //    String TABLE_NAME = "WORD";
-//    WordRepository repository = new WordRepository();
+//    WordRepository employeeRepository = new WordRepository();
 //    DataSource dataSource = Database.getDataSource();
 //
 //
 //    @Test
 //    void test010_insertWord(){
-//        repository.dropTable();
+//        employeeRepository.dropTable();
 //
 //        // arrange
 //        Word word01 = new Word("Meerschweinchen", "guineapig");
 //        Word word02 = new Word("Schildkröte", "turtle");
 //
 //        // act
-//        repository.createTable();
-//        repository.save(word01);
-//        repository.save(word02);
+//        employeeRepository.createTable();
+//        employeeRepository.save(word01);
+//        employeeRepository.save(word02);
 //
 //        // assert
 //        Table wordTable = new Table(dataSource, TABLE_NAME);
@@ -47,16 +47,16 @@
 //
 //        Word word01 = new Word("Meerschweinchen", "guineapig");
 //
-//        repository.createTable();
-//        repository.save(word01);
+//        employeeRepository.createTable();
+//        employeeRepository.save(word01);
 //
-//        List<Word> words = repository.getAllWords();
+//        List<Word> words = employeeRepository.getAllWords();
 //
 //            for (int i = 0; i < words.size(); i++) {
 //                if (words.get(i).getGermanWord().equals(word01.getGermanWord())){
 //                    System.out.println("Word already exists.");
 //                }else {
-//                    repository.save(word01);
+//                    employeeRepository.save(word01);
 //                }
 //            }
 //

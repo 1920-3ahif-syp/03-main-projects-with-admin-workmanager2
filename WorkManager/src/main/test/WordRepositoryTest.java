@@ -2,40 +2,35 @@ package test;
 
 
 import at.htl.workmanager.database.Database;
-import at.htl.workmanager.model.Repository;
-import org.assertj.core.api.Assertions;
-import org.assertj.db.type.Table;
+import at.htl.workmanager.model.EmployeeRepository;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
 import javax.sql.DataSource;
-import javax.xml.crypto.Data;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.db.output.Outputs.output;
-import static org.junit.jupiter.api.Assertions.*;
 
 class WordRepositoryTest {
 
     String TABLE_NAME = "WORD";
-    Repository repository;
+    EmployeeRepository employeeRepository;
     DataSource dataSource = Database.getDataSource();
 
     @BeforeEach
     void beforeEach() {
-        repository = Repository.getInstance();
+        employeeRepository = EmployeeRepository.getInstance();
 
-        if (repository.tableExists(TABLE_NAME)) {
-            repository.dropTables();
+        if (employeeRepository.tableExists()) {
+            employeeRepository.dropTables();
         }
-//        repository.createTable();
+//        employeeRepository.createTable();
     }
 
     /*
     @Test
     void createTable() {
-        repository = new WordRepository();
-        repository.createTable();
+        employeeRepository = new WordRepository();
+        employeeRepository.createTable();
 
     }*/
 
@@ -44,10 +39,10 @@ class WordRepositoryTest {
    @Test
    void test020_insertWord(){
        Word word01 = new Word("Hund", "dog");
-       repository.createTable();
-       repository.save(word01);
+       employeeRepository.createTable();
+       employeeRepository.save(word01);
 
-       assertThat(repository).isNotNull();
+       assertThat(employeeRepository).isNotNull();
    }
 */
 
@@ -55,10 +50,10 @@ class WordRepositoryTest {
    @Test
    void test030_deleteWord(){
        Word word01 = new Word("Hund", "dog");
-       repository.save(word01);
-       repository.delete(word01.getGermanWord());
+       employeeRepository.save(word01);
+       employeeRepository.delete(word01.getGermanWord());
 
-       assertThat(repository).isNull();
+       assertThat(employeeRepository).isNull();
    }
 
    @Test
@@ -80,9 +75,9 @@ class WordRepositoryTest {
    void test090_dropTable() {
 
        // act
-       repository.dropTable();
+       employeeRepository.dropTable();
 
        // assert
-       assertThat(repository.tableExists() == false);
+       assertThat(employeeRepository.tableExists() == false);
    }*/
 }

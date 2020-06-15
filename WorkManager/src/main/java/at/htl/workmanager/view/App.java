@@ -14,7 +14,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         Parent root = loadFXML("AccountWindow");
-        scene = new Scene(root, 600, 400);
+        scene = new Scene(root, 1177, 734);
 
         stage.setTitle("Login Workmanager");
         stage.setScene(scene);
