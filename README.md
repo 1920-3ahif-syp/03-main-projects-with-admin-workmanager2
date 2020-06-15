@@ -6,7 +6,7 @@ Work Manager
 
 * Computer mit IntelliJ Ultimate IDEA
 * Asciidoc installiert
-* EIne Internet-Verbindung
+* Eine Internet-Verbindung
 
 ## Installation
 
